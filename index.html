@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>hola mundo</title>
+</head>
+<body>
+
+<p id="texto" style="cursor:default;">hola mundo</p>
+
+<script>
+  let clicks = 0;
+
+  document.getElementById('texto').addEventListener('click', function () {
+    clicks++;
+    if (clicks >= 3) {
+      window.location.href = 'birthday_sofia.html';
+    }
+  });
+</script>
+
+</body>
+</html>
